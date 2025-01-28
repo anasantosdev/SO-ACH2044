@@ -41,7 +41,7 @@ Organizei o código em três funções principais, além da função `main`, par
   - `mmap` (para otimização de leitura e gravação de arquivos)
   - `pthread` (para implementação de threads)
 
-## 🧑‍💻 Como Executar
+## 💻 Como Executar
 
 ### Pré-requisitos
 
@@ -58,8 +58,9 @@ Para rodar o código deste repositório, você precisará de:
 2. Compile o código com o seguinte comando:
 
 ```bash
-gcc -o merge_sort_parallel merge_sort_parallel.c -lpthread
+gcc -o merge_sort_parallel merge_sort_parallel.c
+
 ./merge_sort_parallel <arquivo_entrada> <arquivo_saida> <num_threads>
-'''
+```
 
 🌟 Para dúvidas ou sugestões, estou à disposição! ✨
