@@ -1,5 +1,4 @@
-# Algoritmo de Ordenação Paralelo (MergeSort) - Sistemas Operacionais
-
+# Algoritmo de Ordenação Paralela (MergeSort)
 ## 💡 Decisões de Projeto
 
 ### Algoritmo de Ordenação
