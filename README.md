@@ -4,7 +4,7 @@
 
 ### Algoritmo de Ordenação
 
-Para a elaboração do EP, inicialmente busquei compreender quais algoritmos de ordenação permitiriam a paralelização de seus passos. Após alguns estudos, o **Merge Sort** foi escolhido devido à sua estrutura recursiva, que permite a divisão do problema em subproblemas independentes, ideal para execução em múltiplas threads.
+Para a elaboração do algoritmo, inicialmente busquei compreender quais tipos de ordenação permitiriam a paralelização de seus passos. Após alguns estudos, o **Merge Sort** foi escolhido devido à sua estrutura recursiva, que permite a divisão do problema em subproblemas independentes, ideal para execução em múltiplas threads.
 
 ### Número de Threads
 
@@ -59,6 +59,7 @@ Para rodar o código deste repositório, você precisará de:
 
 ```bash
 gcc -o merge_sort_parallel merge_sort_parallel.c -lpthread
+./merge_sort_parallel <arquivo_entrada> <arquivo_saida> <num_threads>
 '''
 
 🌟 Para dúvidas ou sugestões, estou à disposição! ✨
